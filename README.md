@@ -16,7 +16,7 @@ pod install
 ### Android 配置
 
 - 在/android/app/src包名目录下创建wxapi包，创建WXEntryActivity.java和WXPayEntryActivity.java
-![image](https://github.com/kmyw/react-native-wechat-demo/raw/master/1.png)
+![image](https://github.com/kmyw/react-native-wechat-demo/raw/master/7.png)
 ```java
 // WXEntryActivity.java
 package com.xxx.wxapi;
