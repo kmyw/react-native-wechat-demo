@@ -5,7 +5,7 @@ react-native-wechat 1.9.12
 ```
 ### 安装配置
 - react-native-wechat 安装
-```javascript
+```
 yarn add react-native-wechat
 // rn 版本 < 0.60
 react-native link react-native-wechat
