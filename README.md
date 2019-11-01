@@ -1,5 +1,5 @@
 ### 版本
-```javascript
+```
 react-native 0.61.2
 react-native-wechat 1.9.12
 ```
@@ -136,7 +136,7 @@ libz
 ```
  - 配置URL Schema
   
-![image](https://user-gold-cdn.xitu.io/2019/11/1/16e266772ac03154?w=1657&h=648&f=png&s=65059)
+![image](https://github.com/kmyw/react-native-wechat-demo/raw/master/5.png)
    打开Xcode 选择Targets > info，配置URL Types
  - 配置Universal Link（ios需要配置Universal Link，才能连接打开app）
  ![image](https://user-gold-cdn.xitu.io/2019/11/1/16e2668226247b59?w=1882&h=630&f=png&s=81723)
