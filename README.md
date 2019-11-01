@@ -16,7 +16,7 @@ pod install
 ### Android 配置
 
 - 在/android/app/src包名目录下创建wxapi包，创建WXEntryActivity.java和WXPayEntryActivity.java
-![image](https://user-gold-cdn.xitu.io/2019/11/1/16e2664efb1d5db2?w=339&h=572&f=png&s=43894)
+![image](https://github.com/kmyw/react-native-wechat-demo/raw/master/1.png)
 ```java
 // WXEntryActivity.java
 package com.xxx.wxapi;
@@ -67,7 +67,7 @@ public class WXPayEntryActivity extends Activity {
 ```
 
 - 配置 AndroidManifest.xml
-![image](https://user-gold-cdn.xitu.io/2019/11/1/16e2666b6852a84f?w=1162&h=337&f=png&s=79788)
+![image](https://github.com/kmyw/react-native-wechat-demo/raw/master/2.png)
 ```xml
 <activity
     android:name=".wxapi.WXEntryActivity"
@@ -91,7 +91,7 @@ public class WXPayEntryActivity extends Activity {
 
 ### iOS配置
 - link 库
-![image](https://user-gold-cdn.xitu.io/2019/11/1/16e2666e90b10837?w=1311&h=715&f=png&s=89604)
+![image](https://github.com/kmyw/react-native-wechat-demo/raw/master/3.png)
 ```
 #Build Phases ➜ Link Binary With Libraries
 SystemConfiguration.framework
@@ -139,7 +139,7 @@ libz
 ![image](https://github.com/kmyw/react-native-wechat-demo/raw/master/5.png)
    打开Xcode 选择Targets > info，配置URL Types
  - 配置Universal Link（ios需要配置Universal Link，才能连接打开app）
- ![image](https://user-gold-cdn.xitu.io/2019/11/1/16e2668226247b59?w=1882&h=630&f=png&s=81723)
+ ![image](https://github.com/kmyw/react-native-wechat-demo/raw/master/4.png)
    - 创建一个文件名是apple-app-site-association的文件, 这个文件需要上传到自己服务器，以下面举例子，这里的appid是prefix + bundle id, path是下载路径，比如自己的服务器网站域名是，https://xx.xxx.com则访问https://xx.xxx.com/download可以下载到apple-app-site-association文件就算ok, 然后打开打开Xcode 选择Targets > Capabilities，打开Assoication Domains选项，添加一项：applinks:xxx.xxx.com (自己服务器域名)
     ```
     {
